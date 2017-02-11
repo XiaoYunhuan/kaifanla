@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-1.11.1.js"></script>
+</head>
+<body>
+    <h2>监听是否滚动到了页面地步</h2>
+    <p style="margin-top:400px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aspernatur commodi dicta distinctio doloribus error hic illo, itaque laboriosam libero quae quaerat qui quos saepe sed soluta ut, voluptates voluptatum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. At aut dolores eaque iusto, mollitia non odit perferendis recusandae soluta. Consequatur cum ex illo mollitia placeat suscipit tempore totam ut vel.</p>
+    <p style="margin-top:400px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aspernatur commodi dicta distinctio doloribus error hic illo, itaque laboriosam libero quae quaerat qui quos saepe sed soluta ut, voluptates voluptatum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. At aut dolores eaque iusto, mollitia non odit perferendis recusandae soluta. Consequatur cum ex illo mollitia placeat suscipit tempore totam ut vel.</p>
+    <p style="margin-top:400px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aspernatur commodi dicta distinctio doloribus error hic illo, itaque laboriosam libero quae quaerat qui quos saepe sed soluta ut, voluptates voluptatum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. At aut dolores eaque iusto, mollitia non odit perferendis recusandae soluta. Consequatur cum ex illo mollitia placeat suscipit tempore totam ut vel.</p>
+    <script>
+        $(window).scroll(function(){
+            console.log('window窗口的总高度：'+$(window).height());
+            console.log('Document文档的高度：'+$(document).height());
+            console.log('window的滚动高度：'+$(window).scrollTop());
+        })
+    </script>
+</body>
+</html>

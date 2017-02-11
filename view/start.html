@@ -1,0 +1,11 @@
+<div id="startPage" ng-click="jump('/main')">
+  <div class="container">
+    <h1 class="text-center">开饭啦<small>在线订餐</small></h1>
+    <img src="img/kid-foods.jpg" class="img-responsive">
+  </div>
+</div>
+<script>
+  var parentHeight = $('#startPage').height();
+  var selfHeight = $('#startPage .container').height();
+  $('#startPage .container').css({ marginTop: (parentHeight-selfHeight)/2-30});
+</script>
